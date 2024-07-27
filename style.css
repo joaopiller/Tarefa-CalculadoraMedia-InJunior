@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: hsl(197, 100%, 25%);
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+h1 {
+    color: #fff;
+}
+
+main {
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: 4px solid hsl(197, 98%, 20%);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.campo-adicionar {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 10px;
+}
+
+.btn-adicionar {
+    height: 1.5rem;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.input-numero {
+    margin-top: 13px;
+    height: 1.7rem;
+}
+
+.campo-adicionar p {
+    font-weight: 500;
+    font-size: large;
+    margin-left: 10px
+}
+
+.campo-notas {
+    height: 300px;
+    width: auto;
+    margin: 15px;
+    border: 1px solid #000;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.campo-notas p {
+    padding-left: 10px;
+}
+
+.campo-media {
+    margin-left: 15px;
+}
+
+.campo-media p {
+    font-weight: 500;
+    font-size: large;
+}
+
+.btn-calcular {
+    height: 30px;
+}
+
