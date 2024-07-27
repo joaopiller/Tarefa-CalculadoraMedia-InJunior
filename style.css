@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 * {
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
@@ -13,9 +15,13 @@ body {
     height: 100vh; 
 }
 
+/* CABEÇALHO */
+
 h1 {
     color: #fff;
 }
+
+/* CALCULADORA */
 
 main {
     background-color: #fff;
@@ -25,6 +31,8 @@ main {
     border: 4px solid hsl(197, 98%, 20%);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
+
+/* Campo "adicionar nota" */
 
 .campo-adicionar {
     display: flex;
@@ -52,6 +60,8 @@ main {
     margin-left: 10px
 }
 
+/* Campo "exibição de notas "*/
+
 .campo-notas {
     height: 300px;
     width: auto;
@@ -64,6 +74,8 @@ main {
 .campo-notas p {
     padding-left: 10px;
 }
+
+/* Campo "calcular média" */
 
 .campo-media {
     margin-left: 15px;
